@@ -232,6 +232,17 @@ color: var(--dark);
     text-align: center;
 }
 
+.overlay {
+    height: 603px;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/people-office\(bcg\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .main-title {
     width: 496px;
     margin: 0 auto 48px auto;
@@ -270,6 +281,14 @@ color: var(--dark);
 .features-list .item {
     width: 264px;
 }
+
+/* .item::before {
+    display: block;
+    content: "";
+    height: 112px;
+    outline: 1px solid red;
+    background-image: ;
+} */
 
 .doings {
     padding-top: 0;
